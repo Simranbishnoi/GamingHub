@@ -39,7 +39,7 @@ function RockPaperScissors() {
       <h2>🪨📄✂️ Rock Paper Scissors</h2>
       
       <div className="scoreboard">
-        <h3>Your Score: {humanScore} | Bot Score: {computerScore}</h3>
+        <h3>Your Score: {humanScore} vs Bot Score: {computerScore}</h3>
       </div>
       
       <p style={{ fontWeight: 'bold', fontSize: '18px' }}>{resultMessage}</p>

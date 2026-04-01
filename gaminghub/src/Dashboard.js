@@ -2,10 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css'; // Just using the global styles we created for now
 
-function Dashboard() {
+function Dashboard({ username }) {
   return (
     <div className="dashboard-container">
-      <h2>🎮 Welcome to React Gaming Hub</h2>
+      <h2>🎮 Welcome to React Gaming Hub, {username}!</h2>
       <p>Select a game to play:</p>
       
       <div className="game-links">
