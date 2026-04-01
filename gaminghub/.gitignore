@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.campus_collaboration_platform_roadmap (1).md
+explanation.md
