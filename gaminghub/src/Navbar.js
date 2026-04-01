@@ -7,7 +7,7 @@ class Navbar extends Component {
     this.state = {
       appName: 'React Gaming Hub'
     };
-    
+
     // In older React, we had to bind functions in the constructor like this:
     this.handleBack = this.handleBack.bind(this);
   }
@@ -19,12 +19,12 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar" style={{ 
-        display: 'flex', 
-        justifyContent: 'space-between', 
-        alignItems: 'center', 
-        padding: '10px 20px', 
-        backgroundColor: '#282c34', 
+      <nav className="navbar" style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        padding: '10px 20px',
+        backgroundColor: '#282c34',
         color: 'white',
         marginBottom: '20px'
       }}>

@@ -49,7 +49,7 @@ function ClickSpeed() {
           <h3 style={{ color: 'red' }}>Time Left: {timeLeft}s</h3>
           <button 
             onClick={handleClick} 
-            style={{ padding: '40px 80px', fontSize: '24px', cursor: 'pointer', backgroundColor: '#e74c3c', color: 'white', border: 'none', borderRadius: '10px' }}>
+            style={{ padding: '40px 80px', fontSize: '24px', cursor: 'pointer', border: 'none', borderRadius: '10px' }}>
             CLICK FAST!
           </button>
         </div>

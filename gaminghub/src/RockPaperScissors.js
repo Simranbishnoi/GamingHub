@@ -18,7 +18,7 @@ function RockPaperScissors() {
 
   function playRound(humanChoice) {
     const computerChoice = getComputerChoice();
-    
+
     if (humanChoice === computerChoice) {
       setResultMessage(`Tie!! Both chose ${humanChoice}`);
     } else if (
@@ -36,21 +36,21 @@ function RockPaperScissors() {
 
   return (
     <div className="game-container">
-      <h2>🪨📄✂️ Rock Paper Scissors</h2>
-      
+      <h2>✊✋✌️ Rock Paper Scissors</h2>
+
       <div className="scoreboard">
         <h3>Your Score: {humanScore} vs Bot Score: {computerScore}</h3>
       </div>
-      
+
       <p style={{ fontWeight: 'bold', fontSize: '18px' }}>{resultMessage}</p>
-      
+
       <div className="game-buttons">
-        <button onClick={() => playRound('rock')}>Rock 🪨</button>
-        <button onClick={() => playRound('paper')}>Paper 📄</button>
-        <button onClick={() => playRound('scissors')}>Scissors ✂️</button>
+        <button onClick={() => playRound('rock')}>Rock ✊</button>
+        <button onClick={() => playRound('paper')}>Paper ✋</button>
+        <button onClick={() => playRound('scissors')}>Scissors ✌️</button>
       </div>
-      
-      <br/><br/>
+
+      <br /><br />
       <Link to="/">
         <button>🔙 Back to Dashboard</button>
       </Link>
