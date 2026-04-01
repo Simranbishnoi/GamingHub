@@ -4,6 +4,7 @@ import Dashboard from './Dashboard';
 import RockPaperScissors from './RockPaperScissors';
 import BatBallStump from './BatBallStump';
 import GuessNumber from './GuessNumber';
+import ClickSpeed from './ClickSpeed';
 import Navbar from './Navbar';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/rps" element={<RockPaperScissors />} />
         <Route path="/batball" element={<BatBallStump />} />
         <Route path="/guess" element={<GuessNumber />} />
+        <Route path="/clickspeed" element={<ClickSpeed />} />
       </Routes>
     </Router>
   );

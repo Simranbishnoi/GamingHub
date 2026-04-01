@@ -22,6 +22,11 @@ function Dashboard({ username }) {
         <Link to="/guess">
           <button className="game-btn">🔢 Guess the Number</button>
         </Link>
+        <br/><br/>
+
+        <Link to="/clickspeed">
+          <button className="game-btn">⏱️ Click Speed Test</button>
+        </Link>
       </div>
     </div>
   );
